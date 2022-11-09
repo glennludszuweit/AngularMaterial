@@ -1,0 +1,32 @@
+$iconWidth: 3em;
+
+.toolbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar-section {
+  display: flex;
+  align-items: center;
+}
+
+.hide-toggle-icon {
+  display: none;
+  padding: 0;
+  margin: .5em;
+  min-width: $iconWidth;
+
+  @media (max-width: 720px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  mat-icon {
+    font-size: 2em;
+    font-weight: bold;
+    height: $iconWidth;
+    width: $iconWidth;
+    line-height: $iconWidth;
+  }
+}

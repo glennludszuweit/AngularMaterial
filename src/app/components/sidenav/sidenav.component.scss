@@ -1,0 +1,24 @@
+.nav-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-sidenav {
+  width: 18em;
+}
+
+.side-header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+
+  .avatar {
+    margin-right: 1em;
+  }
+}

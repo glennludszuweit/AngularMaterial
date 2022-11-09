@@ -1,0 +1,17 @@
+<mat-toolbar class="toolbar-container" color="primary">
+  <div class="toolbar-section">
+    <button
+      mat-icon-button
+      (click)="toggleSidenav.emit()"
+      class="hide-toggle-icon"
+    >
+      <mat-icon> menu </mat-icon>
+    </button>
+    <span>My App</span>
+  </div>
+  <div class="toolbar-section">
+    <button mat-icon-button (click)="openAddContactDialog()">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

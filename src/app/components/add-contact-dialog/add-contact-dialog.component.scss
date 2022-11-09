@@ -1,0 +1,17 @@
+.container {
+  width: 30em;
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+}
+mat-form-field {
+  margin: .5em 0;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

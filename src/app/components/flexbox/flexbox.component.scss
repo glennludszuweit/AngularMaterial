@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  width: 7.5em;
+  height: 5em;
+  background: tomato;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  line-height: 5em;
+  margin: 1em;
+}
