@@ -18,6 +18,7 @@ const SMALL_SCREEN_WIDTH = 720;
   styleUrls: ['./sidenav.component.scss'],
 })
 export class SidenavComponent implements OnInit {
+  darkTheme: boolean = false;
   isSmallScreen: boolean = false;
   users: Observable<User[]> | undefined;
 

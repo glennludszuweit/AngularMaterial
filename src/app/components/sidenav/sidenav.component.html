@@ -1,4 +1,7 @@
-<mat-sidenav-container class="nav-container" autosize>
+<mat-sidenav-container
+  [class]="darkTheme ? 'nav-container dark-theme' : 'nav-container'"
+  autosize
+>
   <mat-sidenav
     #sidenav
     class="nav-sidenav"
@@ -8,6 +11,7 @@
   >
     <mat-toolbar color="secondary" class="side-header">
       <span>Contacts</span>
+      <mat-slide-toggle [(ngModel)]="darkTheme"></mat-slide-toggle>
     </mat-toolbar>
     <mat-nav-list>
       <mat-list-item *ngFor="let user of users | async">
